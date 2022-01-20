@@ -8,3 +8,5 @@ lint:
 	npx eslint .
 install: install-deps
 	npx simple-git-hooks
+brain-even:
+	node bin/brain-even.js
