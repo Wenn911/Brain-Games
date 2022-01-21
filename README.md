@@ -4,6 +4,10 @@
 [![Lint](https://github.com/Wenn911/frontend-project-lvl1/actions/workflows/eslint-check.yml/badge.svg)](https://github.com/Wenn911/frontend-project-lvl1/actions/workflows/eslint-check.yml)
 
 
-https://asciinema.org/a/gZB9iW7lJDqOL4hLOYroghXoT
-https://asciinema.org/a/59cC4ohP48bjKuh3EHi5aJOQh
-https://asciinema.org/a/QPAsAIOp9cG90TB3nlkjb9qAc
+1. Brain-Even https://asciinema.org/a/gZB9iW7lJDqOL4hLOYroghXoT
+
+2. Brain-Calc https://asciinema.org/a/59cC4ohP48bjKuh3EHi5aJOQh
+
+3. Brain-GCD https://asciinema.org/a/QPAsAIOp9cG90TB3nlkjb9qAc
+
+4. Brain-Progression https://asciinema.org/a/787vZqKrV1Xmu1SlJP1XAqJRS
