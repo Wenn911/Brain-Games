@@ -11,3 +11,5 @@
 3. Brain-GCD https://asciinema.org/a/QPAsAIOp9cG90TB3nlkjb9qAc
 
 4. Brain-Progression https://asciinema.org/a/787vZqKrV1Xmu1SlJP1XAqJRS
+
+5. Brain-Prime https://asciinema.org/a/6kJRdSi3KIajjKD3zUrTOIIDe
