@@ -40,7 +40,7 @@ brain-progression - calculate and enter missing number from progression
 
 ### Games overviews:
 
-1. Brain-Even <script id="asciicast-gZB9iW7lJDqOL4hLOYroghXoT" src="https://asciinema.org/a/gZB9iW7lJDqOL4hLOYroghXoT.js" async></script>
+1. Brain-Even https://asciinema.org/a/gZB9iW7lJDqOL4hLOYroghXoT
 
 2. Brain-Calc https://asciinema.org/a/59cC4ohP48bjKuh3EHi5aJOQh
 
