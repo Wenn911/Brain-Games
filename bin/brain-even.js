@@ -1,3 +1,3 @@
-import evenGame from '../src/evenGame-logic.js';
+import evenGame from '../src/games/evenGame-logic.js';
 
 evenGame();

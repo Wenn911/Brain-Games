@@ -1,3 +1,3 @@
-import calcGame from '../src/calc-logic.js';
+import calcGame from '../src/games/calc-logic.js';
 
 calcGame();

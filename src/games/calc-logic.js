@@ -1,5 +1,5 @@
-import engine from './index.js';
-import getRandomNum from './getRandomNum.js';
+import engine from '../index.js';
+import getRandomNum from '../getRandomNum.js';
 
 const gameRules = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
