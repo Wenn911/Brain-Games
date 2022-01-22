@@ -19,6 +19,12 @@
     "type": "git",
     "url": "git+https://github.com/Wenn911/frontend-project-lvl1.git"
   },
+  "keywords": [
+    "hexlet;",
+    "project-lvl1;",
+    "javascript;",
+    "frontend"
+  ],
   "author": "Wenn911",
   "license": "ISC",
   "bugs": {
