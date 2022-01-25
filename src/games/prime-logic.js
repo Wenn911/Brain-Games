@@ -15,13 +15,13 @@ const isPrime = (number) => {
   return true;
 };
 
-const gameCheck = () => {
+const gameLogic = () => {
   const number = getRandomNum(1, 100);
   const question = `${number}`;
   const correctAnswer = isPrime(number) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
-const primeLogic = () => engine(gameRule, gameCheck);
+const primeLogic = () => engine(gameRule, gameLogic);
 
 export default primeLogic;

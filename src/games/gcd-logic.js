@@ -10,7 +10,7 @@ const calculateGCD = (num1, num2) => {
   return calculateGCD(num2, num1 % num2);
 };
 
-const gameCheck = () => {
+const gameLogic = () => {
   const number1 = getRandomNum(1, 100);
   const number2 = getRandomNum(1, 100);
   const question = `${number1} ${number2}`;
@@ -18,6 +18,6 @@ const gameCheck = () => {
   return [question, correctAnswer];
 };
 
-const gameGCD = () => engine(gameRules, gameCheck);
+const gameGCD = () => engine(gameRules, gameLogic);
 
 export default gameGCD;

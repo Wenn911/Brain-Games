@@ -3,15 +3,15 @@ import getRandomNum from '../getRandomNum.js';
 
 const gameRule = 'What number is missing in the progression?';
 const generateProgression = (start, stepProgression, progressionLength) => {
-  const massive = [];
+  const progression = [];
   for (let i = 0; i <= progressionLength; i += 1) {
     const result = start + (i * stepProgression);
-    massive.push(result);
+    progression.push(result);
   }
-  return massive;
+  return progression;
 };
 
-const gameCheck = () => {
+const gameLogic = () => {
   const number1 = getRandomNum(1, 100);
   const step = getRandomNum(2, 10);
   const randomLength = getRandomNum(5, 10);
@@ -23,6 +23,6 @@ const gameCheck = () => {
   return [question, correctAnswer];
 };
 
-const gameProgression = () => engine(gameRule, gameCheck);
+const gameProgression = () => engine(gameRule, gameLogic);
 
 export default gameProgression;

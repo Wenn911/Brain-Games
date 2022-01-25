@@ -16,7 +16,7 @@ const calculate = (number1, operator, number2) => {
   }
 };
 
-const gameCheck = () => {
+const gameLogic = () => {
   const number1 = getRandomNum(1, 25);
   const number2 = getRandomNum(1, 25);
   const operator = operators[getRandomNum(0, operators.length - 1)];
@@ -25,6 +25,6 @@ const gameCheck = () => {
   return [question, correctAnswer];
 };
 
-const calcGame = () => engine(gameRules, gameCheck);
+const calcGame = () => engine(gameRules, gameLogic);
 
 export default calcGame;
