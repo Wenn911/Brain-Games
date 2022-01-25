@@ -9,7 +9,7 @@ const engine = (gameRules, gameLogic) => {
   console.log(gameRules);
 
   for (let i = 1; i <= roundsCount; i += 1) {
-    const [getQuestion, correctAnswer] = gamecheck();
+    const [getQuestion, correctAnswer] = gameLogic();
     console.log(`Question: ${getQuestion}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
